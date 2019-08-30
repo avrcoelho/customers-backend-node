@@ -14,10 +14,10 @@ routes.get('/customers',
 routes.get('/customers/:id',
   handle(controllers.CustomerController.show))
 routes.post('/customers',
-  validate(validators.Customer),
+  validate(validators.CustomerRegister),
   handle(controllers.CustomerController.store))
 routes.put('/customers/:id',
-  validate(validators.Customer),
+  validate(validators.CustomerUpdate),
   handle(controllers.CustomerController.update))
 routes.delete('/customers/:id',
   handle(controllers.CustomerController.destroy))
