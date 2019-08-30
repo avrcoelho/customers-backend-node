@@ -35,7 +35,7 @@ npm run start ou yarn start
 Execute o docker compose para criar a imagem do banco. Caso queira sar ele tambem, execute ``` docker-compose up ```
 
 
-## Requests
+## Endpoints
 
 ```
 GET /customers
