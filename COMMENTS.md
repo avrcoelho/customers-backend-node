@@ -4,6 +4,36 @@ API desenvolvida em NodeJS e utilizando o bando de dados não relacional MongoDB
 Está API conta com validação de dados e utiliza a dependencia Sentry para poder monitora-la
 quando estiver em ambiente de produção.
 
+## Instalar dependencias
+
+...
+npm install ou yarn
+...
+
+
+## Configuração do .env
+
+no arquivo .env configure as variaveis do caminho do banco e caso deseja utilizar o sentry, configura o DNS
+
+
+## Executando (Modo de desenvolvimento)
+
+...
+npm run dev ou yarn dev
+...
+
+
+## Executando (Modo de produção)
+
+...
+npm run start ou yarn start
+...
+
+
+## Observação
+
+Execute o docker compose para criar a imagem do banco. Caso queira sar ele tambem, execute ... docker-compose up ...
+
 
 ## Requests
 
