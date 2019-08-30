@@ -10,11 +10,9 @@ quando estiver em ambiente de produção.
 npm install ou yarn
 ```
 
-
 ## Configuração do .env
 
 no arquivo .env configure as variaveis do caminho do banco e caso deseja utilizar o sentry, configura o DNS
-
 
 ## Executando (Modo de desenvolvimento)
 
@@ -22,18 +20,15 @@ no arquivo .env configure as variaveis do caminho do banco e caso deseja utiliza
 npm run dev ou yarn dev
 ```
 
-
 ## Executando (Modo de produção)
 
 ```
 npm run start ou yarn start
 ```
 
-
 ## Observação
 
-Execute o docker compose para criar a imagem do banco. Caso queira sar ele tambem, execute ``` docker-compose up ```
-
+Execute o docker compose para criar a imagem do banco. Caso queira sar ele tambem, execute `docker-compose up`
 
 ## Endpoints
 
@@ -58,7 +53,6 @@ POST /customers
 - [mongoose-sequence](https://www.npmjs.com/package/mongoose-sequence)
 - [require-dir](https://www.npmjs.com/package/require-dir)
 - [youch](https://www.npmjs.com/package/youch)
-
 
 ## Dependencias de desenvolvimento
 
