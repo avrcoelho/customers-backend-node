@@ -39,9 +39,9 @@ Execute o docker compose para criar a imagem do banco. Caso queira sar ele tambe
 
 ```
 GET /customers
-GET /customers/:id
-DELETE /customers/:id
-PUT /customers/:id
+GET /customers/{id}
+DELETE /customers/{id}
+PUT /customers/{id}
 POST /customers/
 ```
 
