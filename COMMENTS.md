@@ -42,7 +42,7 @@ GET /customers
 GET /customers/{id}
 DELETE /customers/{id}
 PUT /customers/{id}
-POST /customers/
+POST /customers
 ```
 
 ## Dependencias
