@@ -6,9 +6,9 @@ quando estiver em ambiente de produção.
 
 ## Instalar dependencias
 
-...
+```
 npm install ou yarn
-...
+```
 
 
 ## Configuração do .env
@@ -18,32 +18,32 @@ no arquivo .env configure as variaveis do caminho do banco e caso deseja utiliza
 
 ## Executando (Modo de desenvolvimento)
 
-...
+```
 npm run dev ou yarn dev
-...
+```
 
 
 ## Executando (Modo de produção)
 
-...
+```
 npm run start ou yarn start
-...
+```
 
 
 ## Observação
 
-Execute o docker compose para criar a imagem do banco. Caso queira sar ele tambem, execute ... docker-compose up ...
+Execute o docker compose para criar a imagem do banco. Caso queira sar ele tambem, execute ``` docker-compose up ```
 
 
 ## Requests
 
-...
+```
 GET /customers
 GET /customers/:id
 DELETE /customers/:id
 PUT /customers/:id
 POST /customers/
-...
+```
 
 ## Dependencias
 
